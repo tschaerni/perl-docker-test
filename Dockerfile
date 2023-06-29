@@ -20,4 +20,4 @@ WORKDIR /usr/src/hello-world
 #CMD [ "perl", "./hello-world.pl" ]
 # Execute cron (keep in mind, if cron dies, the container keeps running)
 #CMD ["cron", "-f"]
-ENTRYPOINT [ "/usr/src/entrypoint.sh" ]
+ENTRYPOINT [ "/usr/src/hello-world/entrypoint.sh" ]
